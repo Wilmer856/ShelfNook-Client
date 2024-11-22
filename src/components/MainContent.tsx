@@ -44,9 +44,16 @@ export default function MainContent() {
           <h2 className="font-[Merriweather] text-xl md:text-2xl mb-4">
             New Series Collection
           </h2>
-          <p className="text-sm md:text-base">
-            Discover our latest additions to the collection!
-          </p>
+          <div className="flex gap-4">
+            <div className="h-28">
+                <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp" alt="" className="h-full book-shadow rounded-md "/>
+            </div>
+            <div className="flex-2">
+                <h4>A legend of Ice and Fire: The Ice Horse</h4>
+                <p>8 chapters each volume</p>
+            </div>
+            <p className="">2 vol</p>
+          </div>
         </div>
       </div>
     </div>
