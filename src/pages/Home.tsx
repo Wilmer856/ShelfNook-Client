@@ -5,7 +5,7 @@ import MainReadingContent from "../components/MainReadingContent";
 
 export default function Home() {
   return (
-    <div className="h-screen bg-[#f0eee2]">
+    <div className="min-h-screen bg-[#f0eee2]">
       <div className="flex h-full">
         {/* Sidebar */}
         <Sidebar />
@@ -16,7 +16,7 @@ export default function Home() {
           {/* Main Content */}
           <MainContent />
           {/* Reading Content */}
-          <MainReadingContent  />
+          <MainReadingContent />
         </div>
       </div>
     </div>
