@@ -6,7 +6,7 @@ export default function Sidebar() {
   return (
     <div className="relative">
       <button
-        className="lg:hidden p-2 rounded-md focus:outline-none absolute top-4 left-4 z-50"
+        className="lg:hidden p-2 rounded-md focus:outline-none fixed top-4 left-4 z-50 bg-white shadow"
         onClick={() => setIsOpen(!isOpen)}
       >
         <svg

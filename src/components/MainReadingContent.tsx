@@ -3,8 +3,8 @@ import React from "react";
 export default function MainReadingContent() {
   return (
     <div className="p-4 bg-[#fdfcf7] col-span-12 lg:col-span-5 text-[#1a1f2b]">
-      {/* Profile and Notifications */}
-      <div className="flex flex-wrap items-center justify-between mb-4 gap-4">
+      {/* Profile and Notifications (Desktop Only) */}
+      <div className="hidden lg:flex flex-wrap items-center justify-between mb-4 gap-4">
         {/* Profile Section */}
         <div className="flex items-center gap-2">
           <div className="dropdown dropdown-end">
@@ -15,7 +15,7 @@ export default function MainReadingContent() {
             >
               <div className="w-10 rounded-full">
                 <img
-                  alt="Tailwind CSS Navbar component"
+                  alt="User Avatar"
                   src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
                 />
               </div>
@@ -40,6 +40,7 @@ export default function MainReadingContent() {
           </div>
           <span className="text-sm md:text-base">William Jones</span>
         </div>
+
         {/* Notifications */}
         <button className="btn btn-ghost btn-circle">
           <div className="indicator">
@@ -80,8 +81,6 @@ export default function MainReadingContent() {
             - JK Rowling
           </span>
         </div>
-
-        {/* Scheduled Reading */}
         <div>
           <div className="flex items-center justify-between">
             <h2 className="font-[Merriweather] text-lg md:text-2xl">

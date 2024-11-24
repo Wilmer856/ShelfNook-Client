@@ -8,7 +8,7 @@ export default function MainContent() {
         <label className="flex items-center gap-2 bg-[#f0eee2] rounded-md p-2">
           <input
             type="text"
-            className="w-full bg-transparent outline-none"
+            className="w-full bg-transparent outline-none text-sm md:text-base"
             placeholder="Search book name, author, edition..."
           />
         </label>
