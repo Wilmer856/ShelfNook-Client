@@ -1,18 +1,11 @@
 import React from "react";
+import SearchBar from "./SearchBar";
 
 export default function MainContent() {
   return (
     <div className="p-4 col-span-12 lg:col-span-7">
       {/* Search Bar */}
-      <div className="mb-4">
-        <label className="flex items-center gap-2 bg-[#f0eee2] rounded-md p-2">
-          <input
-            type="text"
-            className="w-full bg-transparent outline-none text-sm md:text-base"
-            placeholder="Search book name, author, edition..."
-          />
-        </label>
-      </div>
+      <SearchBar />
 
       {/* Content */}
       <div className="text-[#1a1f2b] flex flex-col gap-8 p-4">
