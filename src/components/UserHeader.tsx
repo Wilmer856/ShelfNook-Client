@@ -42,7 +42,7 @@ export default function UserHeader() {
         {/* Notifications */}
         <button className="btn btn-ghost btn-circle">
           <div className="indicator">
-            <FontAwesomeIcon icon={faBell} size="xl"/>
+            <FontAwesomeIcon icon={faBell as IconProp} size="xl"/>
             <span className="badge badge-xs badge-primary bg-blue-600 border-none indicator-item"></span>
           </div>
         </button>

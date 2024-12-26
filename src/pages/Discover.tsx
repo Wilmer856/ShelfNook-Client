@@ -53,40 +53,61 @@ export default function Discover() {
             </div>
           </div>
           <div className="carousel bg-neutral max-w-full space-x-12 overflow-hidden p-16">
-            <div className="carousel-item h-64 transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
+            <div className="carousel-item flex-col transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
                 <img
                     src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-                    className="rounded-box" />
+                    className="rounded-box h-64" />
+                  <div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
             </div>
-            <div className="carousel-item h-64 transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
+            <div className="carousel-item flex-col transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
                 <img
                     src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-                    className="rounded-box" />
+                    className="rounded-box h-64" />
+                    <div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
             </div>
-            <div className="carousel-item h-64 transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
+            <div className="carousel-item flex-col transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
               <img
                 src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-                className="rounded-box" />
+                className="rounded-box h-64" />
+                <div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
             </div>
-            <div className="carousel-item h-64 transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
+            <div className="carousel-item flex-col transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
               <img
                 src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-                className="rounded-box" />
+                className="rounded-box h-64" />
+                <div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
             </div>
-            <div className="carousel-item h-64 transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
+            <div className="carousel-item flex-col transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
               <img
                 src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-                className="rounded-box" />
+                className="rounded-box h-64" />
+                <div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
             </div>
-            <div className="carousel-item h-64 transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
+            <div className="carousel-item flex-col transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
               <img
                 src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-                className="rounded-box" />
+                className="rounded-box h-64" />
+                <div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
             </div>
-            <div className="carousel-item h-64 transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
+            <div className="carousel-item flex-col transition ease-in-out hover:scale-150 relative z-10 hover:z-20">
               <img
                 src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-                className="rounded-box" />
+                className="rounded-box h-64" />
+                <div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
             </div>
         </div>
     </div>

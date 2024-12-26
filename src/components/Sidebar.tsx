@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { SizeProp } from "@fortawesome/fontawesome-svg-core";
 import { faHouse, faList, faBookmark, faGear, faBookOpen } from "@fortawesome/free-solid-svg-icons";
 
 export default function Sidebar() {
@@ -37,7 +36,7 @@ export default function Sidebar() {
         {/* Logo */}
         <div className="mb-4">
           <a href="#" className="text-gray-700 hover:text-gray-900">
-            <FontAwesomeIcon icon={faBookOpen} size="2xl"/>
+            <FontAwesomeIcon icon={faBookOpen as IconProp} size="2xl"/>
           </a>
         </div>
 
